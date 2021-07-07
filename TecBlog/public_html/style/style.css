@@ -1,5 +1,57 @@
-/* 
-    Created on : 06/07/2021, 19:04:39
-*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 1em;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background: #e6e6e6;
+}
 
-
+/*
+ *Layout
+ */
+#header{
+    background-color: #f7b600; 
+    padding: 15px;
+    text-align: center;
+}
+#logo{
+    padding: 10px;
+}
+/*
+ * Formatação em geral
+ */
+h1{
+    color: #4e4e4e;
+    font-size: 2.5em;
+}
+.white{
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+.menu:link, .menu:visited{
+    color: #fff;
+    padding: 10px 14px;
+}
+.menu:hover{
+    color: #f7b600;
+    background: #fff;
+}
+#body{
+    width: 84%;
+    margin: 0px auto;
+}
+#post, #side{
+    background: red;
+}
+#post{
+    width: 70%;
+    float: left;
+}
+#side{
+    width: 28%;
+    float: right;
+}
