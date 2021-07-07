@@ -41,17 +41,23 @@ a{
     background: #fff;
 }
 #body{
-    width: 84%;
+    width: 88%;
     margin: 0px auto;
 }
-#post, #side{
-    background: red;
-}
 #post{
-    width: 70%;
+    width: 72%;
     float: left;
 }
 #side{
-    width: 28%;
+    width: 25%;
     float: right;
+}
+#base{
+    clear: both;
+    text-align: center;
+    padding: 18px;
+    background: #ccc;
+}
+img{
+    width: 100%;
 }
