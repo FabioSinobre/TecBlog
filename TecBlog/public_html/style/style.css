@@ -22,6 +22,9 @@ body{
 /*
  * Formatação em geral
  */
+hr{
+   margin-top: 20px;
+}
 h1{
     color: #4e4e4e;
     font-size: 2.5em;
